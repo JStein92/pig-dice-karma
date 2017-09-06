@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Pig Dice</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Pig Dice</h1>
+    </div>
+
+    <div class="row">
+      <div class="header">
+        <h1>Current player: <span id="currentPlayer"></span></h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3><span id="p1Name"></span> Round Score: <span id="p1Score"></span></h3>
+        <h3>Total score: <span id="p1TotalScore"></span></h3>
+        <div id="p1Btns">
+          <button type="button" id="p1Dice" name="button" class="btn btn-info">Roll Dice</button>
+          <button type="button" name="button" id="p1Hold" class="btn btn-warning">Hold!</button>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h3><span id="p2Name"></span> Round Score: <span id="p2Score"></span></h3>
+            <h3>Total score: <span id="p2TotalScore"></span></h3>
+        <div id="p2Btns">
+          <button type="button" id="p2Dice" name="button" class="btn btn-info"> Roll Dice</button>
+          <button type="button" name="button" id="p2Hold" class="btn btn-warning">Hold!</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="rollBox" id="p1Rolls">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="rollBox" id="p2Rolls">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

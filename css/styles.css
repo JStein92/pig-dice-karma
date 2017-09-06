@@ -1,0 +1,10 @@
+.rollBox{
+  height: 300px !important;
+  width: 100px;
+  overflow-x: hidden;
+  overflow-y: visible;
+  text-align: center;
+  margin: 50px;
+  background-color: #f7faff;
+  padding: 10px;
+}
